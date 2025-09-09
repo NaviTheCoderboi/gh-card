@@ -1,0 +1,17 @@
+# cmakerun configuration file
+# This file contains default settings for the cmakerun script
+
+# Build configuration
+BUILD_TYPE="Debug"          # Debug, Release, RelWithDebInfo, MinSizeRel
+BUILD_DIR="build"           # Build directory name
+SOURCE_DIR="."              # Source directory (relative to project root)
+
+# Target configuration
+TARGET="gh-card"            # Executable target name (empty for auto-detect)
+
+# Build options
+JOBS=""                     # Number of parallel jobs (empty for auto-detect)
+VERBOSE=0                   # Verbose output (0 or 1)
+
+# Runtime arguments (applied when using -r/--run)
+# ARGS=""                   # Default arguments to pass to executable
